@@ -1,0 +1,54 @@
+<div x-mojo-element="Scroller" id="sideScroller">
+    <div class="scrollerContainer">
+		<div class="panel first" id="panel:1">
+			<div id="header" class="first"><span class="header-title">venues</span></div>
+			<div id="venues-scroller" x-mojo-element="Scroller">
+				<div id="venue-scroll-container" class="vert-container">
+					<div id="panel-content">
+						<div id="venues-debug"></div>
+						<div x-mojo-element="List" id="venues-list"></div>
+					</div>	
+				</div>
+			</div>
+		</div>
+        <div class="panel second" id="panel:2">
+        	<div id="header" class="second"><span class="header-title">friends</span></div>
+			<div id="friends-scroller" x-mojo-element="Scroller">
+				<div id="friends-scroll-container" class="vert-container">
+					<div id="panel-content">
+						<div id="friends-debug"></div>
+						<div x-mojo-element="List" id="friends-list"></div>
+					</div>	
+				</div>
+			</div>
+		</div>
+        <div class="panel third" id="panel:3">
+        	<div id="header" class="third"><span class="header-title">me</span></div>
+		</div>
+    </div>
+</div>
+
+<div id="checkin-dialog" class="showDiv palm-dark">
+	<div id="checkin-title">
+		Check In
+	</div>
+	<div class="palm-group unlabeled">
+		<div class="palm-list">
+			<div class="palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+						<div id="txtShout" x-mojo-element="TextField"></div>
+					</div>
+				</div>
+			</div>
+			<div class="palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+						<div id="btnCheckIn" x-mojo-element="Button"></div><div id="btnCancel" x-mojo-element="Button"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--<div id="action-bar"></div>-->

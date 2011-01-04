@@ -1,0 +1,85 @@
+<div id="fixed-header"><img src="images/places-header.png" /></div>
+<div id="venues-body">
+	<div x-mojo-element="Scroller" id="sideScroller">
+	    <div class="scrollerContainer">
+			<div class="panel" id="panel:1">
+				<div id="venues-scroller" x-mojo-element="Scroller">
+					<div id="searchDrawer" x-mojo-element="Drawer" class="palm-dark">
+						<div class="palm-group unlabeled">
+							<div class="palm-list">
+									<div class="palm-row single">
+									<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+										<div class="title">
+							  				<div id="txtSearch" x-mojo-element="TextField" ></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="btnVenueSearch" x-mojo-element="Button"></div>
+					</div>
+					<div x-mojo-element="List" id="venues-list"></div>
+					<img src="images/scrollspace.png" />
+				</div>
+			</div>
+	        <div class="panel" id="panel:2">
+	        	<div id="friends-scroller" x-mojo-element="Scroller">
+	        		<div x-mojo-element="List" id="friends-list"></div>
+					<img src="images/scrollspace.png" />
+				</div>
+			</div>
+	    </div>
+	</div>
+</div>
+
+<div id="checkin-dialog" class="showDiv palm-dark">
+	<div id="checkin-title">
+		Check In
+	</div>
+	<div class="palm-group unlabeled">
+		<div class="palm-list">
+			<div class="palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+						<div id="txtShout" x-mojo-element="TextField"></div>
+					</div>
+				</div>
+			</div>
+			<div class="palm-row">
+				<div class="palm-row-wrapper textfield-group">
+					<div class="title">
+						<div class="checkbox-wrap">
+							<div id="chkShowFriends" x-mojo-element="CheckBox"></div>
+							<div class="checkbox-label">Show your friends</div>
+						</div>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						    <tr>
+						        <td>
+									<div class="checkbox-wrap">
+										<div id="chkFacebook" x-mojo-element="CheckBox"></div>
+										<div class="checkbox-label">Facebook</div>
+									</div>						        	
+						        </td>
+						        <td>
+									<div class="checkbox-wrap">
+										<div id="chkTwitter" x-mojo-element="CheckBox"></div>
+										<div class="checkbox-label">Twitter</span></div>
+									</div>
+						        </td>
+						    </tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="palm-row last">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+						<div id="btnCheckIn" x-mojo-element="Button"></div><div id="btnCancel" x-mojo-element="Button"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="left-nav" class="nav">Places</div>
+<div id="right-nav" class="nav">Friends</div>

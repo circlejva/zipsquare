@@ -1,0 +1,31 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/helpers/app-helper.js"},
+    {"source": "app/helpers/foursquare-helper.js"},
+    {"source": "lib/base64.js"},
+	{"source": "lib/timeSince.js"},
+    {
+        "scenes": "home",
+        "source": "app/assistants/home-assistant.js"
+    },
+    {
+        "scenes": "login",
+        "source": "app/assistants/login-assistant.js"
+    },
+    {
+        "scenes": "venues",
+        "source": "app/assistants/venues-assistant.js"
+    },
+    {
+        "scenes": "success",
+        "source": "app/assistants/success-assistant.js"
+    },
+    {
+        "scenes": "checkin",
+        "source": "app/assistants/checkin-assistant.js"
+    },
+    {
+        "scenes": "new",
+        "source": "app/assistants/new-assistant.js"
+    }
+]

@@ -1,0 +1,12 @@
+{
+	"id": "com.davidstrack.zipsquare",
+	"version": "0.7.2",
+	"vendor": "David Strack",
+	"type": "web",
+	"main": "index.html",
+	"title": "zipsquare",
+	"icon": "icon64.png",
+	"splashicon": "icon256.png",
+	"splashBackground": "images/bg/trans-blue.png",
+	"keywords":["foursquare","4sq"]
+}
