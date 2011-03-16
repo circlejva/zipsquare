@@ -5,10 +5,6 @@
     {"source": "lib/base64.js"},
 	{"source": "lib/timeSince.js"},
     {
-        "scenes": "home",
-        "source": "app/assistants/home-assistant.js"
-    },
-    {
         "scenes": "login",
         "source": "app/assistants/login-assistant.js"
     },
