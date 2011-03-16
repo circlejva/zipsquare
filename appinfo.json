@@ -1,6 +1,6 @@
 {
 	"id": "com.davidstrack.zipsquare",
-	"version": "0.7.2",
+	"version": "0.7.3",
 	"vendor": "David Strack",
 	"type": "web",
 	"main": "index.html",
