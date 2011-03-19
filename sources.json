@@ -17,10 +17,6 @@
         "source": "app/assistants/success-assistant.js"
     },
     {
-        "scenes": "checkin",
-        "source": "app/assistants/checkin-assistant.js"
-    },
-    {
         "scenes": "new",
         "source": "app/assistants/new-assistant.js"
     }
