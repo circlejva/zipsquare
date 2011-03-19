@@ -1,4 +1,4 @@
-function VenuesAssistant(query) {
+function HomeAssistant(query) {
 	this.currentVenue = '';
 	this.limit = 25;
 	this.index = 0; //panel index
@@ -26,7 +26,7 @@ function VenuesAssistant(query) {
 	});
 }
 
-VenuesAssistant.prototype = {
+HomeAssistant.prototype = {
 	setup: function() {
 		$('checkin-dialog').hide();
 		//$$('body')[0].addClassName('clouds');

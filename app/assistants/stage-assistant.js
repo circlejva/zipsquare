@@ -17,7 +17,7 @@ StageAssistant.prototype.setup = function() {
 		}
 	}
 	if (user.auth){
-		this.controller.pushScene('venues');	
+		this.controller.pushScene('home');	
 	}else{
 		this.controller.pushScene('login');
 	}

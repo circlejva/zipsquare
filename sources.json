@@ -9,8 +9,8 @@
         "source": "app/assistants/login-assistant.js"
     },
     {
-        "scenes": "venues",
-        "source": "app/assistants/venues-assistant.js"
+        "scenes": "home",
+        "source": "app/assistants/home-assistant.js"
     },
     {
         "scenes": "success",
