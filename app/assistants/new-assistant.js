@@ -7,28 +7,28 @@ NewAssistant.prototype = {
 	setup: function() {
 		this.resultsModel = {items: []};   
 		this.controller.setupWidget('results-list', 
-		      {itemTemplate:'templates/google-item', listTemplate:'templates/results-list'},
-		      this.resultsModel);
-	    this.controller.setupWidget("txtSearch",
-	        this.searchAttributes = {
-	            hintText: $L("Venue name..."),
-	            multiline: false,
-	            enterSubmits: false,
-	            focus: true
-	         },
-	         this.searchModel = {
-	             value: "",
-	             disabled: false
-	         }
-	    ); 
-	    this.controller.setupWidget("btnSearch",
-	         this.attributes = {
-	             },
-	         this.model = {
-	             label : "Search Google",
-	             disabled: false
-	         }
-	     );	
+			  {itemTemplate:'templates/google-item', listTemplate:'templates/results-list'},
+			  this.resultsModel);
+		this.controller.setupWidget("txtSearch",
+			this.searchAttributes = {
+				hintText: $L("Venue name..."),
+				multiline: false,
+				enterSubmits: false,
+				focus: true
+			 },
+			 this.searchModel = {
+				 value: "",
+				 disabled: false
+			 }
+		); 
+		this.controller.setupWidget("btnSearch",
+			 this.attributes = {
+				 },
+			 this.model = {
+				 label : "Search Google",
+				 disabled: false
+			 }
+		 ); 
 	},
 	btnSearchTapped: function(event){
 		if (this.searchModel.value.length > 0){
@@ -46,7 +46,7 @@ NewAssistant.prototype = {
 			onFailure: function(){
 				ex("Error getting Google results");
 			}
-		});	
+		}); 
 	},
 	gotResults: function(transport){
 		toggleLoading("off");
@@ -57,7 +57,7 @@ NewAssistant.prototype = {
 	listTapped: function(event){
 		var m = "Add " + event.item.titleNoFormatting + " to Foursquare?";
 		this.controller.showAlertDialog({
-		    onChoose: function(value) {
+			onChoose: function(value) {
 				if(value == 'ok'){
 					this.addVenue(event.item);
 				}else if(value =='cancel'){
@@ -68,9 +68,9 @@ NewAssistant.prototype = {
 			message: m,
 			choices:[
 				{label: $L('Add Venue'), value:'ok', type:'affirmative'},
-				{label: $L('Cancel'), value:'cancel', type:'color'}    
+				{label: $L('Cancel'), value:'cancel', type:'color'}	   
 			]
-		});	 	
+		});		
 	},
 	addVenue: function(item){
 		banner("Adding " + item.titleNoFormatting + "...");
@@ -90,7 +90,7 @@ NewAssistant.prototype = {
 				toggleLoading("off");
 				ex(transport.responseJSON.error);
 			}
-		});	
+		}); 
 	},
 	addedVenue: function(transport){
 		toggleLoading("off");
