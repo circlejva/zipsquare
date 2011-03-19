@@ -1,14 +1,11 @@
-function HomeAssistant(query) {
+function HomeAssistant() {
 	this.currentVenue = '';
 	this.limit = 25;
 	this.index = 0; //panel index
 	this.panel = "venues";
-	if (typeof(query)!="undefined"){
-		this.query = query;	
-	}
-	else{
-		this.query = "";
-	}
+
+	this.query = "";
+	
 	this.dlgHidden = true;
 	this.keepGoing = true;
 	this.clicked = false;
