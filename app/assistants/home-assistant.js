@@ -443,6 +443,7 @@ HomeAssistant.prototype = {
 		});	
 	},
 	checkedIn: function(transport){
+		this.shoutModel.value = "";
 		toggleLoading("off");
 		Mojo.Controller.stageController.pushScene('success',transport.responseJSON);
 	},
