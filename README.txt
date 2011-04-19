@@ -1,5 +1,5 @@
 Zipsquare for webOS
 
-MIT Licensed.
+A fast and simple check-in tool for Foursquare. 
 
-Written in Mojo. Code could use a bit of cleanup - lots of old junk leftover.
+Uses foursquare's V1 API, which will be shut off on August 1, 2011.
