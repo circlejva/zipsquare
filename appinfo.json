@@ -7,6 +7,6 @@
 	"title": "zipsquare",
 	"icon": "icon64.png",
 	"splashicon": "icon256.png",
-	"splashBackground": "images/splash.png",
+	"splashBackground": "images/overlay.png",
 	"keywords":["foursquare","4sq"]
 }
