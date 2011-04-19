@@ -4,7 +4,7 @@
 	"vendor": "David Strack",
 	"type": "web",
 	"main": "index.html",
-	"title": "Zipsquare",
+	"title": "zipsquare",
 	"icon": "icon64.png",
 	"splashicon": "icon256.png",
 	"splashBackground": "images/splash.png",
