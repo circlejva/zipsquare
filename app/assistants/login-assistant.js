@@ -75,7 +75,7 @@ LoginAssistant.prototype = {
 				twitter: user.twitter
 		});	
 		Mojo.Controller.stageController.swapScene({
-			'name': 'venues',
+			'name': 'home',
 			transition: Mojo.Transition.crossFade
 		}); 
 	}
