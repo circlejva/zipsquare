@@ -427,6 +427,7 @@ HomeAssistant.prototype = {
 		}else{
 			params += "&twitter=0";
 		}
+		
 		var url = foursquare.apibase + 'checkin.json';
 		var request = new Ajax.Request(url, {
 			method: 'POST',
