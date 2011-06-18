@@ -417,7 +417,7 @@ HomeAssistant.prototype = {
 		}else{
 			params += "&private=0";
 		}
-		if (!this.fbModel.value){
+		if (this.fbModel.value){
 			params += "&facebook=1";
 		}else{
 			params += "&facebook=0";
