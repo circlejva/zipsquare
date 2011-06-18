@@ -525,7 +525,3 @@ HomeAssistant.prototype = {
 	}
 	
 };
-
-function hideDiv(){
-	
-}
